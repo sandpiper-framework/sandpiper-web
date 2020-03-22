@@ -1,0 +1,8 @@
+<div class="row justify-content-around">
+  {{ range .Site.Data.team }}
+  <figure>
+    <img src="/images/{{ .image }}" alt="{{ .name }}" />
+    <figcaption class="text-center">{{ .name }}</figcaption>
+  </figure>
+  {{end}}
+</div>
