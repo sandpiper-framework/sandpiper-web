@@ -1,21 +1,21 @@
 {
-  "name": "tech-doc-hugo",
+  "name": "sandpiper-web",
   "version": "0.0.1",
-  "description": "Hugo theme for technical documentation.",
+  "description": "Distribute and synchronize Auto Care product data.",
   "main": "none.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bep/tech-doc-hugo.git"
+    "url": "git+https://github.com/dougwinsby/sandpiper-web.git"
   },
-  "author": "",
+  "author": "The Sandpiper Authors",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bep/tech-doc-hugo/issues"
+    "url": "https://github.com/dougwinsby/sandpiper-web/issues"
   },
-  "homepage": "https://github.com/bep/tech-doc-hugo#readme",
+  "homepage": "https://sandpiper.onrender.com/",
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^9.7.4",

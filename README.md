@@ -65,7 +65,14 @@ All text content (beyond what is embedded in the theme design and over-ridden by
 https://www.docsy.dev/docs/adding-content/content/#content-sections-and-templates
 ```
 
-You can use regular Markdown to add inline images. Thise images should be saved to the site’s `static` directory. If you need more control over scaling and sizing, you can use the Docsy [imgproc](https://www.docsy.dev/docs/adding-content/shortcodes/#imgproc) "shortcode" as shown here:
+You can use regular Markdown to add inline images. These images should be saved to the site’s `static` directory. URLs then become relative to that directory. For example, a reference to `image.png` in the static directory would be `/image.png`.
+
+```
+<img src="/image.png" /> or
+![](/image.png)
+```
+
+If you need more control over scaling and sizing, you can use the Docsy [imgproc](https://www.docsy.dev/docs/adding-content/shortcodes/#imgproc) "shortcode" as shown here:
 
 ```
 {{< imgproc spruce Fill "400x450" >}}
