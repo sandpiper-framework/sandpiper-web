@@ -67,14 +67,6 @@ contentDir = "content/fr"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
 
-[languages.no]
-title = "Sandpiper"
-description = "Docsy er operativsystem for skyen"
-languageName ="Norsk"
-contentDir = "content/no"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -149,11 +141,6 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
-[[params.links.user]]
-	name = "Discussion Forum"
-	url = "https://autocare.communifire.com/spaces/127/sandpiper"
-	icon = "fa fa-comments"
-        desc = "Engage with the community (requires an Auto Care login)"
 #[[params.links.user]]
 #	name = "User mailing list"
 #	url = "https://example.org/mail"
@@ -172,13 +159,18 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
+	name = "Discussion Forum"
+	url = "https://autocare.communifire.com/spaces/127/sandpiper"
+	icon = "fa fa-comments"
+        desc = "Engage with the community (requires an Auto Care login)"
+[[params.links.developer]]
 	name = "GitHub - Reference Implementation"
 	url = "https://github.com/dougwinsby/sandpiper"
 	icon = "fab fa-github"
   desc = "Development takes place here!"
 
 [[params.links.developer]]
-	name = "GitHub - This website source"
+	name = "GitHub - Website"
 	url = "https://github.com/dougwinsby/sandpiper-web"
 	icon = "fab fa-github"
   desc = "Documentation and Announcements"

@@ -1,7 +1,7 @@
 /*
  * Add styles or override variables from the theme here.
 
-   Also note that any SCSS import will try the project before the theme, so you can – as one example – create
+   Also note that any SCSS import will look in the project before the theme, so you can, for example, create
    your own _assets/scss/_content.scss and get full control over how your Markdown content is styled.
 
  */
@@ -19,22 +19,24 @@ $google_font_family: "Roboto:300,300i,400,400i,700,700i";
 //$google_font_name: "Helvetica Neue";
 //$google_font_family: "Helvetica+Neue:300,300i,400,400i,700,700i";
 
-
-// override styles
+// ** override nav **
 
 #main_navbar a.nav-link {
   font-weight: 200;
+  color: white;
+  border-bottom: 3px solid transparent;
 }
 
 #main_navbar a.nav-link:hover {
-  color: white;
-  font-weight: 400;
+  border-bottom: 3px solid red;
 }
 
-#main_navbar span.active {
-  color: white;
+#main_navbar a.nav-link.active {
   font-weight: 400;
+  border-bottom: 3px solid red;
 }
+
+// ** override homepage **
 
 .td-cover-block {
   background: {

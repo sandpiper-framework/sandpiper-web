@@ -25,11 +25,7 @@ https://github.com/gohugoio/hugo/releases
 
 There are no dependencies, simply save the executable to a directory in your PATH and you should be good to go!
 
-2. If you want to add or override any css settings, you must install Nodejs and [PostCSS](https://postcss.org/). Hugo will take it from there. See the instructions here:
-
-```
-https://www.docsy.dev/docs/getting-started/#install-postcss
-```
+2. If you want to add or override any css settings, you must install Nodejs and [PostCSS](https://postcss.org/). Hugo will take it from there. For more information, see the [instructions](https://www.docsy.dev/docs/getting-started/#install-postcss).
 
 3. Make a local working copy using git (leaving off a target directory will create `sandpiper-web` automatically):
 
@@ -49,27 +45,27 @@ cd sandpiper-web
 git submodule update --init --recursive
 ```
 
-6. Build your site:
+6. Build your site (to the /public directory):
 
 ```
-hugo server
+hugo
 ```
 
-7. Preview your site in your browser at: http://localhost:1313/. Ctrl-C will stop the Hugo server.
+7. Preview your site locally using `hugo server` at: http://localhost:1313/. (Ctrl-C will stop the Hugo server).
 
 ## Authoring New Content
 
-All text content (beyond what is embedded in the theme design and over-ridden by The Sandpiper Authors when customizing the site) is maintained in markdown (.md) files within language-specific Content directories (e.g. `content/en/`). Files in these content root directories are typically grouped in subdirectories corresponding to your site’s sections and templates. You can find more information here:
+All text content (beyond what is embedded in the theme design and overridden by The Sandpiper Authors) is maintained in markdown (.md) files inside language-specific content directories (e.g. `content/en/`). Files in these content directories are typically grouped in subdirectories corresponding to your site’s sections and templates. You can find more information here:
 
 ```
 https://www.docsy.dev/docs/adding-content/content/#content-sections-and-templates
 ```
 
-You can use regular Markdown to add inline images. These images should be saved to the site’s `static` directory. URLs then become relative to that directory. For example, a reference to `image.png` in the static directory would be `/image.png`.
+Images defined using Markdown should be saved to the site’s `static` directory. URLs then become relative to that directory. For example, a reference to `image.png` in the static directory would be `/image.png`.
 
 ```
-<img src="/image.png" /> or
-![](/image.png)
+![](/image.png) or
+<img src="/image.png" />
 ```
 
 If you need more control over scaling and sizing, you can use the Docsy [imgproc](https://www.docsy.dev/docs/adding-content/shortcodes/#imgproc) "shortcode" as shown here:
@@ -80,8 +76,8 @@ Norway Spruce Picea abies shoot with foliage buds.
 {{< /imgproc >}}
 ```
 
-When using the `imgproc` shortcode, store the image in the associated [Page Bundle](https://gohugo.io/content-management/page-bundles/) which is usually the same directory as the `_index.md` file.
+When using the `imgproc` shortcode, save the image in the associated [Page Bundle](https://gohugo.io/content-management/page-bundles/) which is usually the same directory as the `_index.md` file.
 
 ## Copyright
 
-Please see the LICENSE file for details.
+See the LICENSE file for details.
