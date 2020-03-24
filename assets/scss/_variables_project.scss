@@ -41,11 +41,19 @@ $google_font_family: "Roboto:300,300i,400,400i,700,700i";
 .td-cover-block {
   background: {
       blend-mode: overlay;
-      color: #1c3ed3;
+      //color: #1c3ed3;  // use color="none" in blocks/cover shortcode if uncomment
   };
 }
 
 // force title text to white
 .td-overlay__inner {
   color: white;
+}
+
+.tagline {
+  margin-top: 3rem !important;
+  font-weight: 200;
+  font-family: "Open Sans";
+  font-size: 2.0rem;
+  line-height: 1.2;
 }

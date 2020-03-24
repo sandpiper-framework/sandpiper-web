@@ -64,8 +64,8 @@ https://www.docsy.dev/docs/adding-content/content/#content-sections-and-template
 Images defined using Markdown should be saved to the site’s `static` directory. URLs then become relative to that directory. For example, a reference to `image.png` in the static directory would be `/image.png`.
 
 ```
-![](/image.png) or
-<img src="/image.png" />
+![alt text](/image.png) or
+<img src="/image.png" alt="alt text"/>
 ```
 
 If you need more control over scaling and sizing, you can use the Docsy [imgproc](https://www.docsy.dev/docs/adding-content/shortcodes/#imgproc) "shortcode" as shown here:
