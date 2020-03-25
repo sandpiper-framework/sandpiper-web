@@ -1,15 +1,19 @@
 [
   {
     "name": "Dave Hastings",
-    "image": "avatar1.png"
+    "image": "avatar2.png"
   },
   {
     "name": "Krister Kittelson",
     "image": "avatar2.png"
   },
   {
+    "name": "Jonathan Larson",
+    "image": "avatar2.png"
+  },
+  {
     "name": "Jason Riegel",
-    "image": "avatar3.png"
+    "image": "avatar2.png"
   },
   {
     "name": "Luke Smith",
@@ -17,10 +21,10 @@
   },
   {
     "name": "Tom Vierling",
-    "image": "avatar3.png"
+    "image": "avatar2.png"
   },
   {
     "name": "Doug Winsby",
-    "image": "dougwinsby.png"
+    "image": "avatar2.png"
   }
 ]

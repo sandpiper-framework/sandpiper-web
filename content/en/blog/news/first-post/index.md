@@ -1,9 +1,9 @@
 ---
-date: 2018-10-06
-title: "Easy documentation with Docsy"
-linkTitle: "Announcing Docsy"
+date: 2020-03-25
+title: "Sandpiper Framework Launched"
+linkTitle: "Announcing Sandpiper"
 description: "The Docsy Hugo theme lets project maintainers and contributors focus on content, not on reinventing a website infrastructure from scratch"
-author: Riona MacNamara ([@rionam](https://twitter.com/bepsays))
+author: Doug Winsby ([@winsbygroup](https://twitter.com/winsbygroup))
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
