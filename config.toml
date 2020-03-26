@@ -146,34 +146,31 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 #	url = "https://example.org/mail"
 #	icon = "fa fa-envelope"
 #        desc = "Discussion and help from your fellow users"
-#[[params.links.user]]
-#	name ="Twitter"
-#	url = "https://example.org/twitter"
-#	icon = "fab fa-twitter"
-#        desc = "Follow us on Twitter to get the latest news!"
+
+[[params.links.user]]
+	name ="Twitter"
+	url = "https://twitter.com/sandpiper_api"
+	icon = "fab fa-twitter"
+  desc = "Follow us on Twitter to get the latest news!"
+
 #[[params.links.user]]
 #	name = "Stack Overflow"
 #	url = "https://example.org/stack"
 #	icon = "fab fa-stack-overflow"
 #        desc = "Practical questions and curated answers"
 
-# Developer relevant links. These will show up on right side of footer and in the community page if you have one.
-[[params.links.developer]]
+[[params.links.user]]
 	name = "Discussion Forum"
 	url = "https://autocare.communifire.com/spaces/127/sandpiper"
 	icon = "fa fa-comments"
-        desc = "Engage with the community (requires an Auto Care login)"
+  desc = "Engage with the community (requires an Auto Care login)"
+
+# Developer relevant links. These will show up on right side of footer and in the community page if you have one.				
 [[params.links.developer]]
 	name = "GitHub"
 	url = "https://github.com/sandpiper-framework"
 	icon = "fab fa-github"
   desc = "Development takes place here!"
-
-[[params.links.developer]]
-	name ="Twitter"
-	url = "https://twitter.com/sandpiper_api"
-	icon = "fab fa-twitter"
-  desc = "Follow us on Twitter to get the latest news!"
 
 #[[params.links.developer]]
 #	name = "Developer mailing list"

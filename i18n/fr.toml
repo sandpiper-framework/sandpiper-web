@@ -1,3 +1,16 @@
+# layout-specific strings
+
+[communityHead]
+other = "Rejoignez la communauté {{ .Site.Title }}"
+
+[communitySubHead]
+other  = "{{ .Site.Title }} est un projet open source que tout membre de la communauté peut utiliser, améliorer et apprécier. Nous serions ravis que vous nous rejoigniez! Voici quelques façons de découvrir ce qui se passe et comment vous impliquer."
+
+[LearnAndConnectHead]
+other = "Apprenez et Connectez"
+
+[UsingOrWantTo]
+other = "Vous utilisez ou souhaitez utiliser {{ .Site.Title }}? En savoir plus ici:"
 
 # UI strings. Buttons and similar.
 

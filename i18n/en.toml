@@ -1,0 +1,11 @@
+[communityHead]
+other = "Join the {{ .Site.Title }} community"
+
+[communitySubHead]
+other  = "{{ .Site.Title }} is an open source project that anyone in the community can use, improve, and enjoy. We'd love you to join us! Here are a few ways to find out what's happening and how to get involved."
+
+[LearnAndConnectHead]
+other = "Learn & Connect"
+
+[UsingOrWantTo]
+other = "Using or want to use {{ .Site.Title }}? Find out more here:"
