@@ -30,6 +30,9 @@ other = "Suivez-nous sur Twitter pour obtenir les dernières nouvelles!"
 [EngageWithCommunity]
 other = "Interagissez avec la communauté (nécessite une connexion Auto Care)."
 
+[GitHubDeveloper]
+other = "Development takes place here!"
+
 # UI strings. Buttons and similar.
 
 [ui_pager_prev]
