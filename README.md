@@ -25,7 +25,7 @@ https://github.com/gohugoio/hugo/releases
 
 There are no dependencies, simply save the executable to a directory in your PATH and you should be good to go!
 
-2. If you want to add or override any css settings, you must install Nodejs and [PostCSS](https://postcss.org/). Hugo will take it from there. For more information, see the [instructions](https://www.docsy.dev/docs/getting-started/#install-postcss).
+2. If you want to add or override any css settings, you must install Nodejs and [PostCSS](https://postcss.org/). Hugo will take it from there. For more information, see the theme's [instructions](https://www.docsy.dev/docs/getting-started/#install-postcss).
 
 3. Make a local working copy using git (leaving off a target directory will create `sandpiper-web` automatically):
 
@@ -45,7 +45,7 @@ cd sandpiper-web
 git submodule update --init --recursive
 ```
 
-6. Build your site (to the /public directory):
+6. Build your site (to the /public directory). This also creates the local [Lunr](https://lunrjs.com/) search index file:
 
 ```
 hugo
@@ -55,11 +55,7 @@ hugo
 
 ## Authoring New Content
 
-All text content (beyond what is embedded in the theme design and overridden by The Sandpiper Authors) is maintained in markdown (.md) files inside language-specific content directories (e.g. `content/en/`). Files in these content directories are typically grouped in subdirectories corresponding to your site’s sections and templates. You can find more information here:
-
-```
-https://www.docsy.dev/docs/adding-content/content/#content-sections-and-templates
-```
+All text content (beyond what is embedded in the theme design and overridden by The Sandpiper Authors) is maintained in markdown (.md) files inside language-specific content directories (e.g. `content/en/`). Files in these content directories are typically grouped in subdirectories corresponding to your site’s sections and templates. You can find more information [here](https://www.docsy.dev/docs/adding-content/content/#content-sections-and-templates).
 
 Images defined using Markdown should be saved to the site’s `static` directory. URLs then become relative to that directory. For example, a reference to `image.png` in the static directory would be `/image.png`.
 

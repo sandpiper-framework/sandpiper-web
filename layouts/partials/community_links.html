@@ -2,19 +2,19 @@
 
 <section class="row td-box td-box--4 td-box--gradient td-box--height-auto linkbox">
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-  <h2>{{ T "LearnAndConnectHead" }}</h2>		
+  <h2>{{ T "LearnAndConnect" }}</h2>		
   <p>{{ T "UsingOrWantTo" . }}
   {{ with index $links "user"}}
-  {{ template "community-links-list"  . }}
+  {{ template "community-links-list" . }}
   {{ end }}
 </div>
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-  <h2>Develop and Contribute</h2>
-  <p>If you want to get more involved by contributing to {{ .Site.Title }}, join us here:
+  <h2>{{ T "DevelopAndContribute" }}</h2>
+  <p>{{ T "GetMoreInvolved" . }}</p>
   {{ with index $links "developer"}}
-  {{ template "community-links-list"  . }}
+  {{ template "community-links-list" . }}
   {{ end }}
-  <p>You can find out how to contribute to these docs in our <a href="/docs/contribution-guidelines/">Contribution Guidelines</a>.
+  <p>{{ T "HowToContribute" . }} <a href="/docs/contribution-guidelines/">{{ T "ContributingGuidelines" }}</a></p>
 </div>
 </section>
 
@@ -22,7 +22,7 @@
 <ul>
  {{ range . }}
  <li title="{{ .name }}">
-   <a target="_blank" href="{{ .url }}"><i class="{{ .icon }}"></i> {{ .name }}:</a> {{ .desc }}
+   <a target="_blank" href="{{ .url }}"><i class="{{ .icon }}"></i> {{ .name }}:</a> {{ T .desc }}
  </li>
   {{ end }}
 </ul>

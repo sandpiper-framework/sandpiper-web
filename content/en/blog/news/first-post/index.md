@@ -2,7 +2,7 @@
 date: 2020-03-25
 title: "Sandpiper Framework Launched"
 linkTitle: "Announcing Sandpiper"
-description: "The Docsy Hugo theme lets project maintainers and contributors focus on content, not on reinventing a website infrastructure from scratch"
+description: "An exciting new way to exchange product and application data."
 author: Doug Winsby ([@winsbygroup](https://twitter.com/winsbygroup))
 resources:
 - src: "**.{png,jpg}"

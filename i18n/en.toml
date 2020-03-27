@@ -4,8 +4,29 @@ other = "Join the {{ .Site.Title }} community"
 [communitySubHead]
 other  = "{{ .Site.Title }} is an open source project that anyone in the community can use, improve, and enjoy. We'd love you to join us! Here are a few ways to find out what's happening and how to get involved."
 
-[LearnAndConnectHead]
+[LearnAndConnect]
 other = "Learn & Connect"
 
 [UsingOrWantTo]
 other = "Using or want to use {{ .Site.Title }}? Find out more here:"
+
+[DevelopAndContribute]
+other = "Develop & Contribute"
+
+[GetMoreInvolved]
+other = "If you want to get more involved by contributing to {{ .Site.Title }}, join us here:"
+
+[HowToContribute]
+other = "You can find out how to contribute to these docs in"
+
+[ContributingGuidelines]
+other = "Contributing Guidelines"
+
+[FollowOnTwitter]
+other = "Follow us on Twitter to get the latest news!"
+
+[EngageWithCommunity]
+other = "Engage with the community (requires an Auto Care login)."
+
+[GitHubDeveloper]
+other = "Development takes place here!"

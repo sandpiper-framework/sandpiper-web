@@ -1,8 +1,8 @@
 ---
 date: 2018-10-06
-title: "Easy documentation with Docsy"
-linkTitle: "Announcing Sandpiper"
-description: "The Docsy Hugo theme lets project maintainers and contributors focus on content, not on reinventing a website infrastructure from scratch"
+title: "Cadre Sandpiper Annoncé"
+linkTitle: "Annonçant Sandpiper"
+description: "Une nouvelle façon passionnante d'échanger des données sur les produits et les applications."
 author: Riona MacNamara ([@rionam](https://twitter.com/bepsays))
 resources:
 - src: "**.{png,jpg}"

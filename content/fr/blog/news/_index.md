@@ -1,8 +1,5 @@
-
 ---
-title: "News About Docsy"
-linkTitle: "News"
+title: "Nouvelles sur Sandpiper"
+linkTitle: "Nouvelles"
 weight: 20
 ---
-
-
