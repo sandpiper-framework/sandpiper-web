@@ -1,3 +1,5 @@
+# Sandpiper Site (using Docsy Theme)
+
 baseURL = "/"
 title = "Sandpiper"
 
@@ -97,12 +99,12 @@ version = "0.1"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://sandpiper.onrender.com/"
+url_latest_version = "https://sandpiper.onrender.com/docs/"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/sandpiper-framework/sandpiper-web"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/dougwinsby/sandpiper"
+github_project_repo = "https://github.com/sandpiper-framework"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -136,7 +138,7 @@ footer_about_disable = true
 [params.ui.feedback]
 enable = false
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+yes = 'Glad to hear it!'
 no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
 
 [params.links]

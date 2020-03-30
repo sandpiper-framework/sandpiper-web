@@ -31,7 +31,7 @@ other = "Suivez-nous sur Twitter pour obtenir les dernières nouvelles!"
 other = "Interagissez avec la communauté (nécessite une connexion Auto Care)."
 
 [GitHubDeveloper]
-other = "Development takes place here!"
+other = "Le développement a lieu ici!"
 
 # UI strings. Buttons and similar.
 
@@ -58,12 +58,12 @@ other = "Tous les droits sont réservés"
 [footer_privacy_policy]
 other = "Politique de confidentialité"
 
-
 # Post (blog, articles etc.)
+
 [post_byline_by]
 other = "Par"
 [post_created]
-other = "CreaCrééted"
+other = "Poste Créé"
 [post_last_mod]
 other = "Dernière modification"
 [post_edit_this]

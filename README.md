@@ -77,3 +77,8 @@ When using the `imgproc` shortcode, save the image in the associated [Page Bundl
 ## Copyright
 
 See the LICENSE file for details.
+
+## Attributions
+
+* Home page & About page image by [Ray Hennessy](https://rayhennessy.com/) https://unsplash.com/photos/BR2rEWcQQJQ
+* Favicon from Hiclipart.com https://www.hiclipart.com/free-transparent-background-png-clipart-pbyos 
