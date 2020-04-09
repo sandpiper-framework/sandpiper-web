@@ -5,11 +5,11 @@ weight: 10
 description: A utility program to add, list and pull data-objects (grains) from a sandpiper database.
 ---
 
-### Introduction
+## Introduction
 
-A Level 1 implementation of Sandpiper means syncing "file-based" data-objects. This `sandpiper` CLI tool supports adding, pulling and listing Level 1 files. This functionality is mostly duplicated by the web-based Admin screens, but a command line interface allows an important alternative for hands-free automation.
+A Level 1 implementation of Sandpiper means syncing "file-based" data-objects. The `sandpiper` CLI tool supports adding, pulling and listing Level 1 files. This functionality is mostly duplicated by the web-based Admin screens, but a command line interface allows an important alternative for hands-free automation.
 
-### Command Syntax
+## Command Syntax
 
 ```
 sandpiper [global-options] [add | list | pull | help] [command-options] <arguments>
@@ -32,7 +32,7 @@ commands:
 
 If the password is not provided, you will be prompted for it.
 
-### Configuration file
+## Configuration file
 
 All commands look for a `config.yml` file in the current directory to determine the sandpiper server address (this can be overridden by the `--config` option or by the SANDPIPER_CONFIG environment variable). 
 
@@ -108,7 +108,7 @@ The response would include the assigned grain "id" (but not the payload). Use th
 
 This command displays slice information or grain information for a slice.
 
-#### Syntax:
+### Usage
 
 ```
 sandpiper [global-options] list [command-options]
@@ -130,9 +130,9 @@ Examples:
 
 ## Pull File-Based Objects
 
-Implement the "pull" command to retrieve "file" data-objects from an optional slice in the pool. If the slice is not supplied it will create a sub-directory for each one it finds.
+The "pull" command is used to retrieve "file" data-objects from a slice in the pool. If a slice is not supplied, it will pull all level-1 grains it finds on the server. Files are always saved in a sub-directory named after the slice it came from.
 
-#### Syntax:
+### Usage
 
 ```
 sandpiper [global-options] pull [command-options] <output-directory>
