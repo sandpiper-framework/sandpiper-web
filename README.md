@@ -30,7 +30,7 @@ There are no dependencies, simply save the executable to a directory in your PAT
 3. Make a local working copy using git (leaving off a target directory will create `sandpiper-web` automatically):
 
 ```
-git clone https://github.com/dougwinsby/sandpiper-web.git
+git clone https://github.com/sandpiper-framework/sandpiper-web.git
 ```
 
 4. Change directory to the root of the cloned project:
