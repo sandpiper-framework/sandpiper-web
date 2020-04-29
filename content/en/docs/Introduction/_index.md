@@ -3,10 +3,14 @@ title: "Introduction"
 linkTitle: "Introduction"
 weight: 1
 description: >
-  What is Sandpiper and why was the project started
+  The Sandpiper Project
 ---
 
-### About Sandpiper
+{{% pageinfo %}}
+An overview of the Sandpiper Project's goals and origins.
+{{% /pageinfo %}}
+
+### About
 
 Sandpiper establishes a common, decentralized method to classify, distribute, and synchronize product data between a canonical sender and a derivative receiver. To do this it defines, as unambiguously as possible, both a model for interaction and shared vocabulary to describe the many moving pieces involved.
 
