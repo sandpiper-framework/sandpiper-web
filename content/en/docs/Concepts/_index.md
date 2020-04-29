@@ -1,15 +1,17 @@
 ---
 title: "Concepts"
 linkTitle: "Concepts"
-weight: 5
+weight: 3
 description: >
-  What does your user need to understand about your project in order to use it - or potentially contribute to it? 
+  The fundamental concepts of the Sandpiper framework
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+### Basic Terms
 
-For many projects, users may not need much information beyond the information in the [Overview](/docs/overview/), so this section is **optional**. However if there are areas where your users will need a more detailed understanding of a given term or feature in order to do anything useful with your project (or to not make mistakes when using it) put that information in this section. For example, you may want to add some conceptual pages if you have a large project with many components and a complex architecture.
+Before we go further, there are a few basic terms to introduce, since they're used so often. For more detailed explanations, you can refer to the later parts of the documentation.
 
-Remember to focus on what the user needs to know, not just what you think is interesting about your project! If they don’t need to understand your original design decisions to use or contribute to the project, don’t put them in, or include your design docs in your repo and link to them. Similarly, most users will probably need to know more about how features work when in use rather than how they are implemented. Consider a separate architecture page for more detailed implementation and system design information that potential project contributors can consult.
+In Sandpiper, individuals or individual systems involved in exchanging and hosting data are known as *Nodes*. When they're part of a data exchange, called a *Transaction,* these nodes are known as *Actors*.
+
+Actors exchange data about *Products*. Products (or SKUs, units, items, parts, and so on) are usually goods -- though they can also be services. Sandpiper specializes in the core data that defines these products, which we call *Product Data*: information that, were it to change, would also mean the product or its use itself had changed.
+
+The framework does not make special accommodations for other kinds of data, which we call *Non-Product Data*, even when it is product adjacent.
