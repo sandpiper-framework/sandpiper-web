@@ -2,6 +2,7 @@
 title: "Implementation"
 linkTitle: "Implementation"
 weight: 10
+type: docs
 date: 2017-01-05
 description: >
   Documentation for the Sandpiper reference implementation
