@@ -5,7 +5,7 @@ weight: 10
 type: docs
 date: 2017-01-05
 description: >
-  Documentation for the Sandpiper reference implementation
+  Details of the Sandpiper reference implementation
 ---
 
 {{% pageinfo %}}

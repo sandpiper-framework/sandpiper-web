@@ -4,12 +4,8 @@ linkTitle: "Introduction"
 weight: 1
 type: docs
 description: >
-  The Sandpiper Project
+  The origins and goals of the Sandpiper project
 ---
-
-{{% pageinfo %}}
-An overview of the Sandpiper Project's goals and origins.
-{{% /pageinfo %}}
 
 ### About
 
