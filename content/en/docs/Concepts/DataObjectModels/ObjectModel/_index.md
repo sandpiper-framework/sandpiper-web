@@ -21,10 +21,11 @@ To structure this data and aid the creation of shared scope between actors, the 
 
 ##### Nodes
 
-The node is a single Sandpiper instance or system^[While a server might run multiple concurrent copies of the Sandpiper software and thus represent multiple nodes, for simplicity we just refer to the node as a system, as this is the most common use case.]. It has a *Controller* responsible for, though not necessarily the originator of, its operation and contents.
-
+The node is a single Sandpiper instance or system. It has a *Controller* responsible for, though not necessarily the originator of, its operation and contents.
 
 {{% alert title="Note" %}}
+
+While a server might run multiple concurrent copies of the Sandpiper software and thus represent multiple nodes, for simplicity we just refer to the node as a system, as this is the most common use case..
 
 A human interacting at Level 1-1 is technically a node, though their data state is unknown after retrieval.
 
