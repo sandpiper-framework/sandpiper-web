@@ -30,3 +30,9 @@ other = "Engage with the community (requires an Auto Care login)."
 
 [GitHubDeveloper]
 other = "Development takes place here!"
+
+[JoinMailingList]
+other = "Join Mailing List"
+
+[AddNameToMailingList]
+other = "Add your name to the mailing list for news and announcements."
