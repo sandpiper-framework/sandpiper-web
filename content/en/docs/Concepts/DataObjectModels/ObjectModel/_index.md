@@ -21,9 +21,15 @@ To structure this data and aid the creation of shared scope between actors, the 
 
 ##### Nodes
 
-The node is a single Sandpiper instance or system^[While a server might run multiple concurrent copies of the Sandpiper software and thus represent multiple nodes, for simplicity we just refer to the node as a system, as this is the most common use case.]. It has a *Controller* responsible for, though not necessarily the originator of, its operation and contents.
+The node is a single Sandpiper instance or system. It has a *Controller* responsible for, though not necessarily the originator of, its operation and contents.
 
-Note: a human interacting at Level 1-1 is technically a node, though their data state is unknown after retrieval.
+{{% alert title="Note" %}}
+
+While a server might run multiple concurrent copies of the Sandpiper software and thus represent multiple nodes, for simplicity we just refer to the node as a system, as this is the most common use case..
+
+A human interacting at Level 1-1 is technically a node, though their data state is unknown after retrieval.
+
+{{% /alert %}}
 
 ##### Pools
 
@@ -49,7 +55,7 @@ A slice defines the single type, format, and version of the data it contains (e.
 
 A slice is broken into *Grains*, each representing one unit of meaning or scope. It can be thought of as the element level of the data.
 
-Grains have a *Grain Key* containing a single text value, to safely and atomically operate on the data in pieces smaller than a whole slice. This value must be a single unicode key that directly references one key value within the data, e.g. a part number or a [UUID](#UUIDs). It must not be an artificially packed or delimited set of values referring to more than one key within the data.
+Grains have a *Grain Key* containing a single text value, to safely and atomically operate on the data in pieces smaller than a whole slice. This value must be a single unicode key that directly references one key value within the data, e.g. a part number or a UUID. It must not be an artificially packed or delimited set of values referring to more than one key within the data.
 
 The grain is the smallest unit on which a Sandpiper node can act, and can only be directly addressed in Level 2 and higher transactions.
 
