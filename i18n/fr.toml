@@ -33,6 +33,12 @@ other = "Interagissez avec la communauté (nécessite une connexion Auto Care)."
 [GitHubDeveloper]
 other = "Le développement a lieu ici!"
 
+[JoinMailingList]
+other = "Rejoignez la liste de diffusion"
+
+[AddNameToMailingList]
+other = "Ajoutez votre nom à la liste de diffusion pour les nouvelles et les annonces."
+
 # UI strings. Buttons and similar.
 
 [ui_pager_prev]

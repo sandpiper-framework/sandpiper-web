@@ -144,6 +144,12 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
+	name = "Join Mailing list"
+	url = "https://mailchi.mp/172fd6548eee/sandpiper"
+	icon = "fa fa-envelope"
+  desc = "AddNameToMailingList"
+
+[[params.links.user]]
 	name ="Twitter"
 	url = "https://twitter.com/sandpiper_api"
 	icon = "fab fa-twitter"
