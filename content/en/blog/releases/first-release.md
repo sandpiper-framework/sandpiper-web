@@ -1,11 +1,13 @@
-
 ---
-title: "The second blog post"
-linkTitle: "Second blog post"
-date: 2018-10-06
+title: "First Release"
+linkTitle: "First Release"
+date: 2018-01-04
+draft: true
 description: >
   A short lead descripton about this content page. Text here can also be **bold** or _italic_ and can even be split over multiple paragraphs.
 ---
+
+*DRAFT* (just a placeholder for later)
 
 Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines (unless hovered over).
 
