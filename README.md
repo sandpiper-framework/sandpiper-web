@@ -81,5 +81,4 @@ See the LICENSE file for details.
 ## Attributions
 
 * Home page & About page image by [Ray Hennessy](https://rayhennessy.com/) https://unsplash.com/photos/BR2rEWcQQJQ
-* Favicon from Hiclipart.com https://www.hiclipart.com/free-transparent-background-png-clipart-pbyos 
-* Sandpiper logo curtesy of [Megan Winsby](https://www.linkedin.com/in/mwinsby/)
+* Sandpiper logo and mascot courtesy of [Megan Winsby](https://www.linkedin.com/in/mwinsby/)
