@@ -11,15 +11,15 @@ resources:
 
 ### Motivation
 
-This time last year at his keynote address for the 2019 [ACPN](https://www.autocare.org/who-we-are/segments/acpn/automotive-content-professionals-network/), [Jason Riegel](https://www.linkedin.com/in/jasonriegel/) challenged our industry to do better.
+This time last year, at his keynote address for the 2019 [ACPN](https://www.autocare.org/who-we-are/segments/acpn/automotive-content-professionals-network/), [Jason Riegel](https://www.linkedin.com/in/jasonriegel/) challenged our industry to do better.
 
-Comparing today's content delivery environment to a time just before the arrival of the telegraph for delivering cross-country messages in the 1800s, he stated:
+Jason compared today's content delivery environment to a time just before the arrival of the telegraph for delivering cross-country messages in the 1800s.
 
 {{% alert %}}
 *"our industry is stuck somewhere between the stage coach and the pony express"* -- Jason Riegel
 {{% /alert %}}
 
-Clearly, we don't want to be the pony express of our time! We need a "disruptive" technology like the telegraph.
+Clearly, we don't want to be today's equivalent of the pony express! We need a "disruptive" technology similar in impact to the telegraph.
 
 He concluded his presentation with his vision for a "**Connected Aftermarket**":
 
