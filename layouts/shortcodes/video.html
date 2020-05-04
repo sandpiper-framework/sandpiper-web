@@ -1,0 +1,8 @@
+<div class="container d-flex h-100">
+    <div class="row justify-content-md-center align-self-center">
+      <div class="col-md-auto">
+        <iframe class="youtube-player" type="text/html" width="640" height="385" src="https://www.youtube.com/embed/{{ index .Params 0 }}" allowfullscreen frameborder="0"></iframe>
+      </div>
+      <div class="col col-md-5"><small><em>{{ index .Params 1 }}</em></small></div>
+    </div>
+</div>

@@ -5,7 +5,7 @@ Landing page for sandpiper project
 We use [Hugo](https://gohugo.io/) to build the Sandpiper website with the beautiful [Docsy](https://www.docsy.dev/) theme for content styling.
 
 ## Hosting
-We are currently hosting this website on [Render](https://render.com/) with automatic https certificate updates and automatic updates from GitHub pushes. The render url is https://sandpiper.onrender.com/, but our own custom domain is https://sandpiperframework.org.
+We host this website on [Render](https://render.com/) with automatic https certificate updates and automatic updates from GitHub master. The render url is https://sandpiper.onrender.com/, but our own custom domain is https://sandpiperframework.org. We also use a Render feature that creates a unique url to review pull requests before merging to master.
 
 ### Hosted Build Command (Render, Netlify, etc.)
 
@@ -23,7 +23,7 @@ cd themes/docsy && git submodule update -f --init && cd ../.. && hugo --gc --min
 https://github.com/gohugoio/hugo/releases
 ```
 
-There are no dependencies, simply save the executable to a directory in your PATH and you should be good to go!
+There are no other dependencies. Simply save the executable to a directory in your PATH and you should be good to go!
 
 2. If you want to add or override any css settings, you must install Nodejs and [PostCSS](https://postcss.org/). Hugo will take it from there. For more information, see the theme's [instructions](https://www.docsy.dev/docs/getting-started/#install-postcss).
 
@@ -81,4 +81,4 @@ See the LICENSE file for details.
 ## Attributions
 
 * Home page & About page image by [Ray Hennessy](https://rayhennessy.com/) https://unsplash.com/photos/BR2rEWcQQJQ
-* Favicon from Hiclipart.com https://www.hiclipart.com/free-transparent-background-png-clipart-pbyos 
+* Sandpiper logo and mascot courtesy of [Megan Winsby](https://www.linkedin.com/in/mwinsby/)

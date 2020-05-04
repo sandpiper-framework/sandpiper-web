@@ -1,0 +1,3 @@
+{{ $icon := .Get "icon" | default "fa-lightbulb" }}
+{{ $url_text := .Get "url_text" }}
+<i class="{{ if not (or (hasPrefix $icon "fas ") (hasPrefix $icon "fab ")) }}fas {{ end }}{{ $icon }}"></i>
