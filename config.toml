@@ -77,7 +77,7 @@ time_format_blog = "02.01.2006"
 # Everything below this are Site Params
 
 [params]
-copyright = "The Sandpiper Authors"
+copyright = "The Sandpiper Authors."
 privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
@@ -99,7 +99,7 @@ version = "0.1"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://sandpiper.onrender.com/docs/"
+url_latest_version = "https://sandpiperframework.org/docs/"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/sandpiper-framework/sandpiper-web"
@@ -121,7 +121,7 @@ offlineSearch = true
 # User interface configuration
 [params.ui]
 # Enable to show the side bar menu in its compact state.
-sidebar_menu_compact = true
+sidebar_menu_compact = false
 #  Set to true to disable breadcrumb navigation.
 breadcrumb_disable = false
 #  Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)

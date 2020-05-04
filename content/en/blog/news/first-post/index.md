@@ -21,7 +21,7 @@ Jason compared today's content delivery environment to a time just before the ar
 
 Clearly, we don't want to be today's equivalent of the pony express! We need a "disruptive" technology similar in impact to the telegraph.
 
-He concluded his presentation with his vision for a "**Connected Aftermarket**":
+He concluded his presentation with a vision for a "**Connected Aftermarket**":
 
 {{% alert %}}
 "We need... **REAL TIME**, seamless access to **CLEAN, MEANINGFUL CODED CONTENT**, tied to **INDUSTRY STANDARDS** designed to **ENABLE INSTANTANEOUS CONNECTIVITY** between supplier and the point of sale."
@@ -47,17 +47,19 @@ This simple concept is the basis of Sandpiper.
 
 ### Real-Time Delivery
 
-Now we **had the formula** for a reliable delivery mechanism. The engineers in the group immediately moved to the "napkin-drawing phase". It became clear from the start that we didn't need some central hub-and-spoke design. Just as with the [Web](https://en.wikipedia.org/wiki/World_Wide_Web), all we needed were two machines to talk with each other. If you were a supplier, for example, you'd set up a "subscription" with each company your wanted to share data with (e.g. retailers, ecats, WDs, etc.).
+Now we **had the formula** for a reliable delivery mechanism. The engineers in the group immediately moved to the "napkin-drawing phase".
+
+It became clear from the start that we didn't need some central hub-and-spoke design. Just as with the [Web](https://en.wikipedia.org/wiki/World_Wide_Web), all we needed were two machines to talk with each other. If you were a supplier, for example, you'd set up a "subscription" with each of your trading partners (e.g. retailers, ecats, WDs, etc.), assuming, of course, they also had a machine that understood the formula.
 
 Whenever a change was made to your data, it would alert everyone subscribed to that data, and perform a little dance (a "sync") to make sure your information was up to date.
 
-While the napkin-drawing was impressive, we realized it was a pretty massive jump from where we are today. While (near) "real-time" delivery remains the ultimate goal, it was clear we needed to walk before we ran.
+While the napkin-drawing was impressive, we realized it was a pretty massive jump from where we are today. While near "real-time" delivery remains the ultimate goal, it was clear we needed to walk before we ran.
 
 ### Compliance Levels & Adoption
 
 As everyone in our industry knows, one of the biggest challenges with the Data Standards has always been adoption. If a customer wasn't demanding it, it just wasn't seen as a priority. As much as we expect great ideas to be like the movie *Field of Dreams*, "if you build it, they will come", it almost never works out that way.
 
-We knew we needed a super-simple system providing an immediate benefit, zero disruption, and would save time over existing processes. So we came up with the idea of Sandpiper compliance levels:
+We knew we needed a super-simple system with immediate benefit, zero disruption, and a time savings over existing processes. So we came up with the idea of Sandpiper "compliance levels":
 
 * **Level-0.** Non-compliance. Maintain the current state of data exchange.
 * **Level-1.** Continue to exchange full-files, but automate the process.
@@ -68,7 +70,7 @@ Here is a visualization of the first three compliance levels:
 
 {{< imgproc compliance Resize "400x" />}}
 
-The real value in **Level-1** is the consolidation of the many delivery requirements down to just one (including document submission forms, etc). Now you'd simply publish a file once, confident it would be delivered to all your trading partners that requested it.
+The real value in **Level-1** is consolidating the many industry delivery requirements down to just one (including document submission forms, etc). This means you'd publish a file just once, confident it would be delivered to all your trading partners that requested it.
 
 ### Project Status
 
@@ -79,4 +81,3 @@ This is a **purely volunteer-driven** effort, with many hundreds of hours alread
 Please join our [mailing list](https://mailchi.mp/172fd6548eee/sandpiper). This simple act shows the industry you understand the importance of this exciting new direction of content delivery. Also, check out our [Roadmap](/blog/roadmap) to see what we have planned.
 
 {{< imgproc mascot Resize "x80" />}}
-

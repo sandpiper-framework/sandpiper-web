@@ -9,7 +9,7 @@ description: >
 
 ### About
 
-Sandpiper establishes a common, decentralized method to classify, distribute, and synchronize product data between a canonical sender and a derivative receiver. To do this it defines, as unambiguously as possible, both a model for interaction and shared vocabulary to describe the many moving pieces involved.
+Sandpiper establishes a common, decentralized way to distribute and synchronize product data between trading partners. To do this it defines, as unambiguously as possible, both a model for interaction and shared vocabulary to describe the many moving pieces involved.
 
 Sandpiper tries to do this one thing well, and does not attempt to branch into other realms better handled by dedicated tools.
 

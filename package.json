@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dougwinsby/sandpiper-web.git"
+    "url": "git+https://github.com/sandpiper-framework/sandpiper-web.git"
   },
   "author": "The Sandpiper Authors",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dougwinsby/sandpiper-web/issues"
+    "url": "https://github.com/sandpiper-framework/sandpiper-web/issues"
   },
-  "homepage": "https://sandpiper.onrender.com/",
+  "homepage": "https://sandpiperframework.org",
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^9.7.4",
