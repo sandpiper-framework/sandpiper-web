@@ -76,7 +76,7 @@ The real value in **Level-1** is consolidating the many industry delivery requir
 
 We've made great strides in the last several months, but we're really just getting started. We've solved many of the difficult problems (like reference-versioning and data-syncing), but we have much more to do.
 
-This is a **purely volunteer-driven** effort, with many hundreds of hours already contributed. Several companies have graciously allowed resources to be spent on this project during working hours, but we need your help. We need developers, testers, writers, translators... If you see a need, please jump in to fill it!
+This is a **purely volunteer-driven** effort, with many hundreds of hours already contributed. Several companies have graciously allowed resources to be spent on this project during working hours, but we need your help too. We need developers, testers, writers, translators... If you see a need, please jump in to fill it!
 
 Please join our [mailing list](https://mailchi.mp/172fd6548eee/sandpiper). This simple act shows the industry you understand the importance of this exciting new direction of content delivery. Also, check out our [Roadmap](/blog/roadmap) to see what we have planned.
 

@@ -7,7 +7,6 @@ description: >
 ---
 
 
-# Roadmap
 ## Sandpiper 1.0
 
 We're making progress toward a v1.0 release, but there's much more to accomplish to make that happen. In order to communicate our progress and explain our plans for the future, we've developed the following "roadmap". No timelines are provided at this time, but we hope to add these as we get further into the project.
@@ -21,16 +20,24 @@ We're making progress toward a v1.0 release, but there's much more to accomplish
 - [x] Create high-level design document
 - [ ] Fill in the blanks for Level-2 compliance
 
+### Marketing and Outreach
+- [x] Create public GitHub presence
+- [x] Create project website
+- [x] Create Mailing list sign-up
+- [x] Create Twitter account
+- [x] Create short introductory video
+- [x] Announcement at ACPN 2020
+- [ ] Gather feedback
+
 ### Reference Server Implementation
-- [x] Select a development environment
+- [x] Select development tools and platform
 - [x] Design the database schema
 - [ ] Complete the v1.0 Beta (for Level-1)
 - [ ] Complete the `sandpiper` command line utility
 - [ ] Beta test v1.0 with two companies (phase 1)
-- [ ] Beta test v1.0 with addition companies (phase 2)
+- [ ] Beta test v1.0 with additional companies (phase 2)
 - [ ] Document the API ([OpenAPI](https://www.openapis.org/), [Swagger](https://swagger.io/docs/))
 - [ ] Add SSL (https) support ([letsencrypt?](https://letsencrypt.org/))
-- [ ] Replace http-based sync with websockets
 
 ### Reference Admin Screens Implementation
 - [x] Select a development environment
@@ -41,18 +48,10 @@ We're making progress toward a v1.0 release, but there's much more to accomplish
 - [ ] Automate and Document Server Setup
 - [ ] Consider Docker for Hosted Deployment
 
-### Marketing and Outreach
-- [x] Create public GitHub presence
-- [x] Create project website
-- [x] Create Mailing list sign-up
-- [x] Create Twitter account
-- [x] Create short introductory video
-- [x] Announcement at ACPN 2020
-- [ ] Gather feedback
-
 ## Sandpiper 2.0
 
 These are areas we know we'd like to include in the project, but they've been kicked down the road.
 
+- [ ] Replace http-based sync with websockets
 - [ ] Level-3, near-real-time delivery
 - [ ] Define feedback mechanism
