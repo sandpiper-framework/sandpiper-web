@@ -81,4 +81,4 @@ See the LICENSE file for details.
 ## Attributions
 
 * Home page & About page image by [Ray Hennessy](https://rayhennessy.com/) https://unsplash.com/photos/BR2rEWcQQJQ
-* Sandpiper logo and mascot courtesy of [Megan Winsby](https://www.linkedin.com/in/mwinsby/)
+* The Sandpiper logo and mascot images are Copyright 2020 [Megan Winsby](https://www.linkedin.com/in/mwinsby/). Used with permission.

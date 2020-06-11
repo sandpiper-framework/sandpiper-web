@@ -1,10 +1,9 @@
 ---
 title: "Introduction"
 linkTitle: "Introduction"
-weight: 15
 menu:
   main:
-    weight: 15
+    weight: 10
 ---
 
 
