@@ -11,15 +11,16 @@
     "url": "git+https://github.com/sandpiper-framework/sandpiper-web.git"
   },
   "author": "The Sandpiper Authors",
-  "license": "ISC",
+  "license": "Artistic-2.0",
   "bugs": {
     "url": "https://github.com/sandpiper-framework/sandpiper-web/issues"
   },
   "homepage": "https://sandpiperframework.org",
   "dependencies": {},
   "devDependencies": {
-    "autoprefixer": "^9.7.4",
-    "postcss-cli": "^7.1.0"
+    "autoprefixer": "^9.8.0",
+    "postcss-cli": "^7.1.1",
+    "lodash": ">=4.17.19"
   },
   "browserslist": [
     "defaults",
