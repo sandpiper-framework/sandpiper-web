@@ -32,12 +32,17 @@ We're making progress toward a v1.0 release, but there's much more to accomplish
 ### Reference Server Implementation
 - [x] Select development tools and platform
 - [x] Design the database schema
-- [ ] Complete the v1.0 Beta (for Level-1)
-- [ ] Complete the `sandpiper` command line utility
+- [x] Complete the v1.0 Beta (for Level-1)
+- [x] Complete the `sandpiper` command line utility
 - [ ] Beta test v1.0 with two companies (phase 1)
 - [ ] Beta test v1.0 with additional companies (phase 2)
 - [ ] Document the API ([OpenAPI](https://www.openapis.org/), [Swagger](https://swagger.io/docs/))
 - [ ] Add SSL (https) support ([letsencrypt?](https://letsencrypt.org/))
+
+### Reference Server-Side Rendering (HTML)
+- [ ] Sign Up Process
+- [x] Login Screen
+- [ ] Display and Download Level-1 Subscriptions (via Browser)
 
 ### Reference Admin Screens Implementation
 - [x] Select a development environment
