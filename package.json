@@ -20,7 +20,7 @@
   "devDependencies": {
     "autoprefixer": "^9.8.0",
     "postcss-cli": "^7.1.1",
-    "lodash": ">=4.17.19"
+    "lodash": ">=4.17.21"
   },
   "browserslist": [
     "defaults",
