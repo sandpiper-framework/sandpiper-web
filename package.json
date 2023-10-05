@@ -18,8 +18,8 @@
   "homepage": "https://sandpiperframework.org",
   "dependencies": {},
   "devDependencies": {
-    "autoprefixer": "^9.8.0",
-    "postcss-cli": "^7.1.1",
+    "autoprefixer": "^10.4.16",
+    "postcss-cli": "^10.1.0",
     "lodash": ">=4.17.21"
   },
   "browserslist": [
